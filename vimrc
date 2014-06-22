@@ -6,3 +6,7 @@ filetype plugin indent on
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 map <C-n> :NERDTreeToggle<CR>
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
