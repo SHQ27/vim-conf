@@ -10,6 +10,8 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set backspace=indent,eol,start
+colorscheme happy_hacking
 
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
